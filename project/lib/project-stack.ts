@@ -16,8 +16,7 @@ export class ProjectStack extends cdk.Stack {
       crossAccountKeys: false,
       synth: new ShellStep("Synth", {
         input: CodePipelineSource.gitHub("akmalpopalzi98/awsPipeline", "main"),
-        commands: ["cd project",'npm ci', "cdk synth"],
-        primaryOutputDirectory:'project/cdk.out'
+        commands: ["cd project", "npm ci", "cdk synth"],
       }),
     });
   }
