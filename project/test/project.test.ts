@@ -4,7 +4,7 @@
 
 // example test. To run these tests, uncomment this file along with the
 // example resource in lib/project-stack.ts
-test('SQS Queue Created', () => {
+test('Initial Test', () => {
 //   const app = new cdk.App();
 //     // WHEN
 //   const stack = new Project.ProjectStack(app, 'MyTestStack');
